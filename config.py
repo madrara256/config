@@ -9,7 +9,7 @@ def open_br_db_connection(commit=False):
     FreeTDS_DRIVER = 'FreeTDS'
     SQL_SERVER_HOST = 'localhost'
     SQL_SERVER_UID = 'sa'
-    SQL_SERVER_PWD = 'passW0rd&&!!4'
+    SQL_SERVER_PWD = 'password'
 
     quoted_connection = ';'.join(
     [
